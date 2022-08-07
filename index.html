@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Jeopardy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Jquery Jeopardy</h1>
+    <h2 id="user-score">Score:</h2>
+    <div class="container-fluid" id="board">
+    </div>
+    <div class="container-fluid" id="question-box">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="question-category"></h2>
+                <h2 id="question" class="question"></h2>
+            </div>
+        </div>
+        <form action="submit" id="answer-form" class="answer-form">
+            <input type="text"
+            placeholder="Enter your answer here"
+             id="answer-input" class="answer-input">
+            <button type="submit" id="answer-submit" class="answer-submit">Submit</button>
+            <h3 id="answer"></h3>
+        </form>
+    </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+#title {
+    color: rgb(198, 189, 8);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#board {
+    width: 910px;
+    height: 625px;
+    margin: 3px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    columns: 5;
+    column-span: all;
+}
+
+.square {
+    width: 155px;
+    height: 113px;
+    float: left;
+    background-color: rgb(13, 0, 255);
+    margin: 2px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(212, 198, 3);
+    text-emphasis: bold;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding: 32px;
+    border-radius: 2px;
+}
+.square:hover {
+    background-color: rgb(219, 219, 219);
+    color: rgba(188, 185, 2, 0.981);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.square:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(212, 198, 3);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+#user-score {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#answer-form {
+    appearance: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#question-box {
+    appearance: none;
+    text-align: center;
+    border: 1px solid black;
+    border-right: 2in solid white;
+    border-radius: 14px;
+    border-left: 2in solid white;
+}
